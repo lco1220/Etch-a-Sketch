@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --ffamily: 'Montserrat', sans-serif;
+  --blue: #1795b4;
+  --pink: #fcc6c6;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--ffamily);
+  font-size: 15px;
+  top: 0;
+}
+
+h1 {
+  text-align: center;
+  background-color: var(--pink);
+  color: var(--blue);
+  margin: 0;
+  height: 50px;
+  padding: 10px;
+  position: relative;
+}
+
+#btn-container {
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  position: relative;
+}
+
+button {
+  color: #1795b4;
+  display: inline-block;
+  width: auto;
+  height: 25px;
+  border: 1px solid #fcc6c6;
+  border-radius: 5px;
+  background-color: #fcc6c6;
+  font-size: 14px;
+  font-family: var(--ffamily);
+}
+
+#container {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  border: 4px solid #fcc6c6;
+}
