@@ -15,14 +15,29 @@
 
   <h1>Etch-a-Sketch</h1>
 
-  <div id="btn-container">
-    <button id="new-btn">New Box</button>
-    <button id="default-btn">Default Box</button>
-    <button id="clear-btn">Restart</button>
 
+  <div class="game">
+    <main id="container"></main>
+
+    <div id="btn-container">
+      <button id="new-btn">New Box</button>
+      <button id="clear-btn">Restart</button>
+      <div id="toggle-container">
+        <label class="switch">
+          <input type="checkbox" id="color-toggle" autocomplete="off">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="color-text">
+        Change Color:
+      </div>
+      <div class="text">
+        <p>Blue</p>
+        <p>Random</p>
+      </div>
+    </div>
   </div>
 
-  <main id="container"></main>
 
   <script src="app.js"></script>
 </body>
